@@ -1,0 +1,13 @@
+.enlace {
+    cursor: pointer;
+}
+
+#enlaces .active {
+    font-weight: bold;
+}
+
+.card {
+
+    background-image: url(/assets/img/concierto.jpg );
+    background-size: cover;
+}

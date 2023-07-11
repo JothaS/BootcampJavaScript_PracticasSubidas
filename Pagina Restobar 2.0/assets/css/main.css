@@ -1,0 +1,30 @@
+.fondo-personalizado {
+    background-image: url("./../img/fondo.png");
+    background-repeat: repeat-x;
+    background-size: auto 25rem;
+}
+
+.nav-link {
+    text-shadow: 2px 1px #000;
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.destacados {
+    text-decoration: overline;
+}
+
+
+
+.contenedor-formulario {
+    border-radius: 8px;
+}
+
+footer {
+    background-image: url("./../img/fondo.png");
+    height: 220px;
+    padding-top: 150px;
+    
+}
