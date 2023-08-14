@@ -1,4 +1,4 @@
-# FINALL DRILLIN MODULO 7
+# FINALL DRILLING MODULO 7
 
 ## DESCRIPCIÓN
 Planteamiento del ejercicio de aplicación.
