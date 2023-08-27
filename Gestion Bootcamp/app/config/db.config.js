@@ -1,9 +1,16 @@
 const Sequelize = require('sequelize')
 
-const conexion = new Sequelize('db_bootcamp', 'postgres', 'postgres', {
-    host: 'localhost',
-    port: 5432,
-    dialect: 'postgres'
-})
-
-module.exports = conexion
+module.exports = {
+    HOST: 'localhost',
+    USER: 'postgres',
+    PASSWORD: 'Cjota.241',
+    DB: 'db_jwtbootcamp',
+    dialect: 'postgres',
+    pool: {
+      max: 5,
+      min: 0,
+      acquire: 30000,
+      idle: 10000,
+    },
+  };
+  
